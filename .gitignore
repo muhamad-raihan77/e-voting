@@ -1,0 +1,51 @@
+# ==========================================
+# File Konfigurasi & Lingkungan (Kredensial Sensitif)
+# ==========================================
+config.php
+config.local.php
+*.local.php
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Database Backup & SQL Dumps
+# (database.sql skema template tetap diizinkan)
+# ==========================================
+*.sql
+!database.sql
+*.sqlite
+*.dump
+*.bak
+backup/
+
+# ==========================================
+# Server Logs, Sessions & Cache
+# ==========================================
+*.log
+error_log
+logs/
+tmp/
+temp/
+sessions/
+
+# ==========================================
+# Editor & IDE
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ==========================================
+# File Sistem Operasi
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
